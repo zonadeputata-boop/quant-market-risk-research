@@ -1,0 +1,9 @@
+[project]
+name = "quant-linkedin-research"
+version = "0.1.0"
+description = "Quant market risk research repository for LinkedIn carousel posts"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
