@@ -1,0 +1,6 @@
+asset,latest_beta,latest_r2,stress_beta,unexplained_share,risk_read
+QQQ,1.43,0.87,1.21,0.13,Equity beta dominates
+GLD,1.17,0.43,0.14,0.5700000000000001,SPY is not enough
+HYG,0.27,0.7,0.39,0.30000000000000004,Credit is equity-like
+TLT,0.28,0.22,-0.04,0.78,Rates driver dominates
+SHY,0.06,0.35,0.0,0.65,Cash-like sleeve
