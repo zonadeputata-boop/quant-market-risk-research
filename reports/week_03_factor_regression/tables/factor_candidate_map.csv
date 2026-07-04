@@ -1,0 +1,6 @@
+Asset,Latest beta,R2,Unexplained,Primary read,Candidate factor,Proxy to test
+QQQ,1.43,0.87,0.13,Equity beta dominates,Growth / equity duration,QQQ vs SPY residual
+GLD,1.17,0.43,0.57,SPY is not enough,USD / real rates,"UUP, TLT, GLD"
+HYG,0.27,0.7,0.3,Credit is equity-like,Credit spread / liquidity,"HYG, LQD, spreads"
+TLT,0.28,0.22,0.78,Rates driver dominates,Rates / duration,"TLT, SHY, yield curve"
+SHY,0.06,0.35,0.65,Cash-like sleeve,Cash / front-end rates,"SHY, BIL, front-end rates"
