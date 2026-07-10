@@ -1,0 +1,7 @@
+Asset,VaR_95,ES_95,Tail_gap,Risk_read
+QQQ,-0.03,-0.045,-0.015,Equity tail risk
+SPY,-0.024,-0.036,-0.012,Benchmark tail risk
+TLT,-0.022,-0.034,-0.012,Duration tail risk
+GLD,-0.018,-0.027,-0.009,Non-equity tail driver
+HYG,-0.015,-0.023,-0.008,Credit tail risk
+SHY,-0.003,-0.005,-0.002,Cash-like sleeve
