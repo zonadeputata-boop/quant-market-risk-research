@@ -1,0 +1,7 @@
+Pair,Normal_corr,Stress_corr,Change,Risk_read
+SPY-QQQ,0.86,0.94,0.08,Equity exposure concentrates
+SPY-HYG,0.58,0.76,0.18,Credit becomes equity-like
+SPY-TLT,-0.25,0.1,0.35,Hedge may weaken
+SPY-GLD,0.05,0.22,0.17,Safe-haven behavior unstable
+TLT-GLD,0.18,0.34,0.16,Macro hedge mix changes
+HYG-TLT,-0.2,0.05,0.25,Credit-rates diversification fades
