@@ -1,0 +1,7 @@
+Asset,Realized_vol,Target_vol,Raw_exposure,Capped_exposure,Risk_read
+SPY,0.185,0.1,0.54,0.54,Reduce equity risk
+QQQ,0.245,0.1,0.41,0.41,Reduce high-beta risk
+TLT,0.165,0.1,0.61,0.61,Moderate duration risk
+GLD,0.145,0.1,0.69,0.69,Moderate hedge sleeve
+HYG,0.095,0.1,1.05,1.0,Near full exposure
+SHY,0.025,0.1,4.0,1.0,Cap cash-like leverage
