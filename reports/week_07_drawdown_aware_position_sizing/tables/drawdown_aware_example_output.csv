@@ -1,0 +1,7 @@
+asset,realized_vol,drawdown,volatility_scalar,drawdown_scalar,final_exposure,risk_read
+SPY,0.1850,-0.0400,0.5400,0.8000,0.4300,Moderate de-risking
+QQQ,0.2450,-0.0900,0.4100,0.5500,0.2300,Two constraints active
+TLT,0.1600,-0.1200,0.6300,0.4000,0.2500,Drawdown dominates
+GLD,0.1450,-0.0300,0.6900,0.8500,0.5900,Risk budget intact
+HYG,0.0950,-0.0600,1.0000,0.7000,0.7000,Path constraint active
+SHY,0.0250,-0.0100,1.0000,0.9500,0.9500,Near full exposure
