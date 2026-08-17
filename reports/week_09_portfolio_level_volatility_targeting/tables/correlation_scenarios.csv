@@ -1,0 +1,4 @@
+scenario,pairwise_correlation,sleeve_volatility,portfolio_volatility_before_portfolio_scalar,uncapped_portfolio_scalar_to_10pct
+dispersed,0.1,0.1,0.05,2.0
+connected,0.4,0.1,0.07071067811865477,1.414213562373095
+moves-together,0.75,0.1,0.08897565210026093,1.1239029738980328

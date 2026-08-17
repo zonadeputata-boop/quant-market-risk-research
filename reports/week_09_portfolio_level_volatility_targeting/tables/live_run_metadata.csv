@@ -1,0 +1,2 @@
+source,first_date,last_date,return_observations,downloaded_at_utc
+Yahoo Finance chart endpoint; adjusted close,2020-01-02,2026-08-14,1662,2026-08-15T07:15:23.694184+00:00
