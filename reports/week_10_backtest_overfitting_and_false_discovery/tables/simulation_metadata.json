@@ -1,0 +1,23 @@
+{
+  "design": "controlled null Monte Carlo",
+  "true_expected_return": 0.0,
+  "candidate_dependence": "independent by construction",
+  "return_assumption": "iid Gaussian",
+  "train_days": 756,
+  "test_days": 504,
+  "annualization_days": 252,
+  "alpha_one_sided": 0.05,
+  "experiments_per_trial_count": 10000,
+  "trial_counts": [
+    1,
+    5,
+    10,
+    25,
+    50,
+    100,
+    250,
+    500
+  ],
+  "seed": 20260817,
+  "interpretation": "Selection-bias diagnostic only; not historical performance and not evidence about any investable strategy."
+}
