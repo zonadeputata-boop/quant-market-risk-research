@@ -1,0 +1,2 @@
+ewma_lambda,ewma_half_life_trading_days,shock_percentile,shock_abs_return_threshold,shock_exclusion_days_each_side,forward_realized_window,annualization_factor
+0.94,11.202305583621158,0.99,0.017595150881811947,10,21,252
