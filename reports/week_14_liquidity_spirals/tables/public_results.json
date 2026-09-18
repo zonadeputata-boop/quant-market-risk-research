@@ -1,0 +1,102 @@
+{
+  "title": "Liquidity Spirals: When Margin Calls Force the Next Sale",
+  "model_type": "deterministic hypothetical scenario",
+  "assumptions": {
+    "initial_assets": 250.0,
+    "initial_debt": 150.0,
+    "initial_equity": 100.0,
+    "external_price_shock": -0.04,
+    "maximum_leverage": 2.5,
+    "impact_sensitivity_no_feedback": 0.0,
+    "impact_sensitivity_lower_feedback": 0.2,
+    "impact_sensitivity_stronger_feedback": 0.4
+  },
+  "scenarios": [
+    {
+      "scenario": "no_feedback",
+      "impact_sensitivity": 0.0,
+      "external_shock": -0.04,
+      "post_shock_assets_before_sales": 240.0,
+      "post_shock_equity_before_sales": 90.0,
+      "post_shock_leverage_before_sales": 2.6666666666666665,
+      "iterations": 1,
+      "total_forced_sale": 15.0,
+      "forced_sale_pct_initial_assets": 0.06,
+      "cumulative_impact_return": 0.0,
+      "final_assets": 225.0,
+      "final_debt": 135.0,
+      "final_equity": 90.0,
+      "equity_loss_pct": 0.09999999999999998,
+      "final_leverage": 2.5,
+      "label": "No feedback"
+    },
+    {
+      "scenario": "lower_feedback",
+      "impact_sensitivity": 0.2,
+      "external_shock": -0.04,
+      "post_shock_assets_before_sales": 240.0,
+      "post_shock_equity_before_sales": 90.0,
+      "post_shock_leverage_before_sales": 2.6666666666666665,
+      "iterations": 18,
+      "total_forced_sale": 20.989113846718823,
+      "forced_sale_pct_initial_assets": 0.0839564553868753,
+      "cumulative_impact_return": -0.017857142850224883,
+      "final_assets": 215.01814358526792,
+      "final_debt": 129.01088615328118,
+      "final_equity": 86.00725743198674,
+      "equity_loss_pct": 0.1399274256801326,
+      "final_leverage": 2.500000000061635,
+      "label": "Lower feedback"
+    },
+    {
+      "scenario": "stronger_feedback",
+      "impact_sensitivity": 0.4,
+      "external_shock": -0.04,
+      "post_shock_assets_before_sales": 240.0,
+      "post_shock_equity_before_sales": 90.0,
+      "post_shock_leverage_before_sales": 2.6666666666666665,
+      "iterations": 42,
+      "total_forced_sale": 35.341314815873204,
+      "forced_sale_pct_initial_assets": 0.1413652592634928,
+      "cumulative_impact_return": -0.062499999969922726,
+      "final_assets": 191.09780863612414,
+      "final_debt": 114.6586851841268,
+      "final_equity": 76.43912345199735,
+      "equity_loss_pct": 0.23560876548002652,
+      "final_leverage": 2.5000000000802047,
+      "label": "Stronger feedback"
+    }
+  ],
+  "case_study": [
+    {
+      "period_start": "2022-09-23",
+      "period_end": "2022-10-14",
+      "metric": "Margin and collateral calls faced by LDI funds and pension schemes",
+      "value": 70,
+      "value_qualifier": "greater_than",
+      "unit": "GBP billion",
+      "source_url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
+      "source_note": "Bank staff estimate"
+    },
+    {
+      "period_start": "2022-09-23",
+      "period_end": "2022-10-14",
+      "metric": "Net gilt sales by LDI funds",
+      "value": 23,
+      "value_qualifier": "around",
+      "unit": "GBP billion",
+      "source_url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
+      "source_note": "Reported in Section 5"
+    },
+    {
+      "period_start": "2022-09-23",
+      "period_end": "2022-10-14",
+      "metric": "Net gilt sales by DB pension schemes",
+      "value": 14,
+      "value_qualifier": "around",
+      "unit": "GBP billion",
+      "source_url": "https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022",
+      "source_note": "Reported in Section 5"
+    }
+  ]
+}

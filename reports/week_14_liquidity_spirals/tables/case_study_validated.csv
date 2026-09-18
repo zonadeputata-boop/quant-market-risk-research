@@ -1,0 +1,4 @@
+period_start,period_end,metric,value,value_qualifier,unit,source_url,source_note
+2022-09-23,2022-10-14,Margin and collateral calls faced by LDI funds and pension schemes,70,greater_than,GBP billion,https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022,Bank staff estimate
+2022-09-23,2022-10-14,Net gilt sales by LDI funds,23,around,GBP billion,https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022,Reported in Section 5
+2022-09-23,2022-10-14,Net gilt sales by DB pension schemes,14,around,GBP billion,https://www.bankofengland.co.uk/financial-stability-report/2022/december-2022,Reported in Section 5
