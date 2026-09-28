@@ -1,0 +1,125 @@
+{
+  "model_classification": "stylized deterministic scenario",
+  "annual_turnover": 10.4,
+  "economic_break_even_aum_usd": 279918639.0532543,
+  "participation_limit_aum_usd": 250000000.0,
+  "capacity_results": [
+    {
+      "aum_usd": 10000000.0,
+      "trade_usd": 2000000.0,
+      "participation_rate": 0.004,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.0006324555320336759,
+      "impact_cost_annual": 0.006577537533150229,
+      "total_cost_annual": 0.01177753753315023,
+      "net_alpha_annual": 0.02822246246684977,
+      "net_alpha_to_volatility": 0.2822246246684977
+    },
+    {
+      "aum_usd": 25000000.0,
+      "trade_usd": 5000000.0,
+      "participation_rate": 0.01,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.001,
+      "impact_cost_annual": 0.010400000000000001,
+      "total_cost_annual": 0.015600000000000003,
+      "net_alpha_annual": 0.024399999999999998,
+      "net_alpha_to_volatility": 0.24399999999999997
+    },
+    {
+      "aum_usd": 50000000.0,
+      "trade_usd": 10000000.0,
+      "participation_rate": 0.02,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.001414213562373095,
+      "impact_cost_annual": 0.01470782104868019,
+      "total_cost_annual": 0.01990782104868019,
+      "net_alpha_annual": 0.02009217895131981,
+      "net_alpha_to_volatility": 0.20092178951319808
+    },
+    {
+      "aum_usd": 100000000.0,
+      "trade_usd": 20000000.0,
+      "participation_rate": 0.04,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.002,
+      "impact_cost_annual": 0.020800000000000003,
+      "total_cost_annual": 0.026000000000000002,
+      "net_alpha_annual": 0.013999999999999999,
+      "net_alpha_to_volatility": 0.13999999999999999
+    },
+    {
+      "aum_usd": 250000000.0,
+      "trade_usd": 50000000.0,
+      "participation_rate": 0.1,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.0031622776601683794,
+      "impact_cost_annual": 0.03288768766575115,
+      "total_cost_annual": 0.03808768766575115,
+      "net_alpha_annual": 0.0019123123342488502,
+      "net_alpha_to_volatility": 0.0191231233424885
+    },
+    {
+      "aum_usd": 280000000.0,
+      "trade_usd": 56000000.0,
+      "participation_rate": 0.112,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.003346640106136302,
+      "impact_cost_annual": 0.034805057103817545,
+      "total_cost_annual": 0.04000505710381755,
+      "net_alpha_annual": -5.057103817547592e-06,
+      "net_alpha_to_volatility": -5.0571038175475924e-05
+    },
+    {
+      "aum_usd": 500000000.0,
+      "trade_usd": 100000000.0,
+      "participation_rate": 0.2,
+      "annual_turnover": 10.4,
+      "fixed_cost_annual": 0.005200000000000001,
+      "impact_cost_per_trade": 0.00447213595499958,
+      "impact_cost_annual": 0.04651021393199563,
+      "total_cost_annual": 0.05171021393199563,
+      "net_alpha_annual": -0.01171021393199563,
+      "net_alpha_to_volatility": -0.1171021393199563
+    }
+  ],
+  "sensitivity_results": [
+    {
+      "scenario": "Baseline",
+      "economic_break_even_aum_usd": 279918639.0532543
+    },
+    {
+      "scenario": "Gross alpha 3%",
+      "economic_break_even_aum_usd": 142159763.31360942
+    },
+    {
+      "scenario": "ADV down 40%",
+      "economic_break_even_aum_usd": 167951183.4319526
+    },
+    {
+      "scenario": "Daily volatility 3%",
+      "economic_break_even_aum_usd": 124408284.02366863
+    },
+    {
+      "scenario": "Gross alpha 5%",
+      "economic_break_even_aum_usd": 463905325.443787
+    }
+  ],
+  "assumptions": {
+    "gross_alpha_annual": 0.04,
+    "portfolio_volatility_annual": 0.1,
+    "rebalances_per_year": 52.0,
+    "trade_fraction_per_rebalance": 0.2,
+    "fixed_cost_bps": 5.0,
+    "daily_volatility": 0.02,
+    "effective_adv_usd": 500000000.0,
+    "impact_coefficient": 0.5,
+    "participation_limit": 0.1
+  }
+}
