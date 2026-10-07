@@ -1,0 +1,108 @@
+{
+  "status": "source_reported_statistics",
+  "average_gap_vol_points": 4.3,
+  "raw_vix_to_vcr_average_error_reduction": 0.32068311195445914,
+  "raw_vix_to_vcr_median_error_reduction": 0.5,
+  "metrics": {
+    "avg_vix": {
+      "metric_id": "avg_vix",
+      "display_label": "VIX average",
+      "value": 19.9,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-01-01",
+      "sample_end": "2014-12-31",
+      "source_id": "cboe_overlay_2015"
+    },
+    "avg_forward_realized_vol": {
+      "metric_id": "avg_forward_realized_vol",
+      "display_label": "Subsequent realized volatility average",
+      "value": 15.6,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-01-01",
+      "sample_end": "2014-12-31",
+      "source_id": "cboe_overlay_2015"
+    },
+    "avg_implied_realized_gap": {
+      "metric_id": "avg_implied_realized_gap",
+      "display_label": "Average VIX minus realized volatility",
+      "value": 4.3,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-01-01",
+      "sample_end": "2014-12-31",
+      "source_id": "cboe_overlay_2015"
+    },
+    "vcr_median_abs_error": {
+      "metric_id": "vcr_median_abs_error",
+      "display_label": "VCR median absolute error",
+      "value": 2.31,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "vcr_average_abs_error": {
+      "metric_id": "vcr_average_abs_error",
+      "display_label": "VCR average absolute error",
+      "value": 3.58,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "raw_vix_median_abs_error": {
+      "metric_id": "raw_vix_median_abs_error",
+      "display_label": "Raw VIX median absolute error",
+      "value": 4.62,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "raw_vix_average_abs_error": {
+      "metric_id": "raw_vix_average_abs_error",
+      "display_label": "Raw VIX average absolute error",
+      "value": 5.27,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "recent_vol_median_abs_error": {
+      "metric_id": "recent_vol_median_abs_error",
+      "display_label": "Recent volatility median absolute error",
+      "value": 3.06,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "recent_vol_average_abs_error": {
+      "metric_id": "recent_vol_average_abs_error",
+      "display_label": "Recent volatility average absolute error",
+      "value": 4.25,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "mr_median_abs_error": {
+      "metric_id": "mr_median_abs_error",
+      "display_label": "Mean-reversion adjustment median absolute error",
+      "value": 3.02,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    },
+    "mr_average_abs_error": {
+      "metric_id": "mr_average_abs_error",
+      "display_label": "Mean-reversion adjustment average absolute error",
+      "value": 4.08,
+      "unit": "annualized_vol_points",
+      "sample_start": "1990-12-21",
+      "sample_end": "2017-09-30",
+      "source_id": "spdj_cboe_guide_2017"
+    }
+  },
+  "interpretation_limit": "VIX minus subsequent realized volatility is a descriptive ex-post gap. The theoretical variance risk premium compares risk-neutral expected variance with physical expected variance, which is not directly observable."
+}
