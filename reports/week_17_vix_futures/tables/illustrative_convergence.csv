@@ -1,0 +1,5 @@
+item,value,unit
+Spot VIX at start,15.0,VIX points
+Front future purchase,20.0,VIX points
+Settlement SOQ,15.0,VIX points
+Illustrative futures return,-25.0,percent

@@ -1,0 +1,149 @@
+{
+  "status": "source_reported_statistics_plus_illustrative_scenarios",
+  "metrics": {
+    "contango_frequency_lower_bound": {
+      "metric_id": "contango_frequency_lower_bound",
+      "display_label": "Contango frequency",
+      "value": 80.0,
+      "unit": "percent",
+      "period_start": "2010-01-01",
+      "period_end": "2022-07-26",
+      "as_of": "",
+      "comparison": "greater_than",
+      "source_id": "cboe_contango_2022"
+    },
+    "backwardation_frequency_upper_bound": {
+      "metric_id": "backwardation_frequency_upper_bound",
+      "display_label": "Backwardation frequency",
+      "value": 20.0,
+      "unit": "percent",
+      "period_start": "2010-01-01",
+      "period_end": "2022-07-26",
+      "as_of": "",
+      "comparison": "less_than",
+      "source_id": "cboe_contango_2022"
+    },
+    "short_term_index_1m_return": {
+      "metric_id": "short_term_index_1m_return",
+      "display_label": "S&P 500 VIX Short-Term Futures Index 1-month return",
+      "value": -14.17,
+      "unit": "percent_total_return",
+      "period_start": "",
+      "period_end": "",
+      "as_of": "2026-09-16",
+      "comparison": "equals",
+      "source_id": "spdj_risk_dashboard_2026_09"
+    },
+    "short_term_index_ytd_return": {
+      "metric_id": "short_term_index_ytd_return",
+      "display_label": "S&P 500 VIX Short-Term Futures Index YTD return",
+      "value": -30.08,
+      "unit": "percent_total_return",
+      "period_start": "2026-01-01",
+      "period_end": "2026-09-16",
+      "as_of": "2026-09-16",
+      "comparison": "equals",
+      "source_id": "spdj_risk_dashboard_2026_09"
+    },
+    "short_term_index_12m_return": {
+      "metric_id": "short_term_index_12m_return",
+      "display_label": "S&P 500 VIX Short-Term Futures Index 12-month return",
+      "value": -46.14,
+      "unit": "percent_total_return",
+      "period_start": "2025-09-16",
+      "period_end": "2026-09-16",
+      "as_of": "2026-09-16",
+      "comparison": "equals",
+      "source_id": "spdj_risk_dashboard_2026_09"
+    },
+    "short_term_monthly_roll_cost": {
+      "metric_id": "short_term_monthly_roll_cost",
+      "display_label": "S&P 500 VIX Short-Term Futures Index monthly roll cost",
+      "value": 2.38,
+      "unit": "percent",
+      "period_start": "",
+      "period_end": "",
+      "as_of": "2026-09-16",
+      "comparison": "equals",
+      "source_id": "spdj_risk_dashboard_2026_09"
+    }
+  },
+  "scenarios": {
+    "contango_curve": {
+      "M1": {
+        "scenario": "contango_curve",
+        "point": "M1",
+        "value": 18.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      },
+      "M2": {
+        "scenario": "contango_curve",
+        "point": "M2",
+        "value": 20.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      },
+      "M3": {
+        "scenario": "contango_curve",
+        "point": "M3",
+        "value": 21.5,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      }
+    },
+    "backwardation_curve": {
+      "M1": {
+        "scenario": "backwardation_curve",
+        "point": "M1",
+        "value": 28.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      },
+      "M2": {
+        "scenario": "backwardation_curve",
+        "point": "M2",
+        "value": 25.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      },
+      "M3": {
+        "scenario": "backwardation_curve",
+        "point": "M3",
+        "value": 23.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      }
+    },
+    "convergence_example": {
+      "spot_vix_start": {
+        "scenario": "convergence_example",
+        "point": "spot_vix_start",
+        "value": 15.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      },
+      "front_future_purchase": {
+        "scenario": "convergence_example",
+        "point": "front_future_purchase",
+        "value": 20.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      },
+      "settlement_soq": {
+        "scenario": "convergence_example",
+        "point": "settlement_soq",
+        "value": 15.0,
+        "unit": "VIX_points",
+        "role": "illustrative"
+      }
+    }
+  },
+  "illustrative_convergence_return": -0.25,
+  "interpretation_limits": [
+    "The greater-than-80% contango statistic covers 2010 through 26 July 2022, not 2026.",
+    "The September 2026 index returns are a point-in-time total-return snapshot, not a long-run estimate.",
+    "Roll drag arises through futures price changes, convergence and rebalancing, not from an immediate cash loss created by the roll trade itself.",
+    "The convergence example excludes collateral return, fees, slippage and changes in the VIX settlement level."
+  ]
+}
